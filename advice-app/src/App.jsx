@@ -112,8 +112,8 @@ function App() {
   }
 
   return (
-    <div className=" w-full h-screen bg-slate-800 flex">
-      <div className="h-auto w-96 shadow-xl bg-slate-700 m-auto items-center rounded-xl text-center p-7 relative">
+    <div className=" w-full h-screen bg-slate-800 flex px-10">
+      <div className="h-auto w-96 shadow-xl bg-slate-700 m-auto items-center rounded-xl text-center p-7 relative m">
         <p className="text-emerald-400 text-[0.7rem] font-bold tracking-[0.2rem] mb-5">
           AFRICAN NUGGETS <span>#{count}</span>
         </p>
@@ -159,7 +159,7 @@ function App() {
           </svg>
         </div>
       </div>
-      <p className="text-slate-400 text-xs absolute bottom-10 justify-self-center w-full text-center">
+      <p className="text-slate-400  text-xs absolute bottom-10 right-0 justify-self-center w-full text-center">
         made with &#9829; by Victor Madu
       </p>
     </div>
