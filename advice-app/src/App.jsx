@@ -114,7 +114,7 @@ function App() {
   return (
     <div className=" w-full h-screen bg-slate-800 flex px-10">
       <div className="h-auto w-96 shadow-xl bg-slate-700 m-auto items-center rounded-xl text-center p-7 relative m">
-        <p className="text-emerald-400 text-[0.7rem] font-bold tracking-[0.2rem] mb-5">
+        <p className="text-[0.7rem] text-purple-400 font-bold tracking-[0.2rem] mb-5">
           AFRICAN NUGGETS <span>#{count}</span>
         </p>
 
@@ -140,23 +140,25 @@ function App() {
 
           <hr className="flex-1 border-slate-500" />
         </div>
-        <div
-          onClick={handleClick}
-          className="icon rounded-full w-12 h-12 bg-emerald-400 flex justify-center items-center absolute -bottom-5 left-[44%] cursor-pointer hover:bg-green-300 hover:shadow-[2px_2px_30px_#6ee7b7] transition duration-300 hover:text-emerald-600 "
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="w-6 h-6"
+        <div className="w-full px-auto absolute left-0 flex justify-center">
+          <div
+            onClick={handleClick}
+            className="icon rounded-full w-12 h-12 bg-purple-400 flex justify-center items-center cursor-pointer hover:bg-purple-300 hover:shadow-[2px_2px_30px_#60a5fa] transition duration-300 hover:text-purple-100"
           >
-            <path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z" />
-            <path
-              fill-rule="evenodd"
-              d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z"
-              clip-rule="evenodd"
-            />
-          </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z" />
+              <path
+                fill-rule="evenodd"
+                d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </div>
       <p className="text-slate-400  text-xs absolute bottom-10 right-0 justify-self-center w-full text-center">
